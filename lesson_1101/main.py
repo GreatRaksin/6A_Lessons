@@ -1,2 +1,2 @@
-name = 'Demid'
-print('Hello, world!')
+name = 'Demid'  # присваиваю переменной name значение Demid
+print(f'Hello, {name}!')
