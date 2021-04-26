@@ -1,10 +1,10 @@
-import turtle
+from turtle import *
 
-tina = turtle.Turtle()  # создал черепашку
-s = turtle.Screen()  # создаю переменную экрана
+tina = Turtle()  # создал черепашку
+s = Screen()  # создаю переменную экрана
 s.bgcolor('black')  # указываю цвет фона
 
-turtle.register_shape('turtle.gif')  # регистрация новой формы
+register_shape('turtle.gif')  # регистрация новой формы
 tina.shape('turtle.gif')  # применение новой формы
 tina.color('#ffffff')
 
@@ -15,4 +15,4 @@ tina.fd(100)
 
 # flaticon.com
 
-turtle.done()  # не даю окну закрыться сразу
+done()  # не даю окну закрыться сразу
